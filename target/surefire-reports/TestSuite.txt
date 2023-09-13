@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 12.539 s <<< FAILURE! - in TestSuite
+testPostUer(api.testcases.DDTests)  Time elapsed: 1.07 s  <<< FAILURE!
+java.lang.RuntimeException: java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+Caused by: java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+
+testDeleteUser(api.testcases.DDTests)  Time elapsed: 1.072 s  <<< FAILURE!
+java.lang.RuntimeException: java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+Caused by: java.lang.NoClassDefFoundError: org/apache/poi/ss/usermodel/Cell
+Caused by: java.lang.ClassNotFoundException: org.apache.poi.ss.usermodel.Cell
+
